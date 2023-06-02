@@ -1,0 +1,771 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    position:relative;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+/* **************** Header Section CSS Start *****************  */
+.header{
+    width:100%;
+    /* transition:0.5s; */
+    /* padding: 10px 0px; */
+     background-color: #fdfdfd;
+     position:fixed;
+     top: 0; 
+     /* box-shadow: 1px 0px 15px 0px grey; */
+   
+}
+.header:hover{
+    /* box-shadow: 1px 1px 15px 5px rgb(230, 228, 228); */
+   
+}
+.logo img{
+    width: 100px;
+    margin: 10px 0px 0px;
+    
+  }
+ 
+ .inner-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-header .nav-menu{
+    display: flex;
+}
+ .nav-menu .live::after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #ff0000;
+    top: 32px;
+    border-radius: 50%;
+}
+.inner-header .nav-menu li{
+    list-style: none;
+    display: inline-block;
+}
+.inner-header .nav-menu a{
+    display: block;
+    margin: 35px 10px 0px;
+    color:#1e266d;
+    font-size: 16px;
+    font-weight: 500;
+    /* transition: 0.5s; */
+}
+.inner-header .nav-menu a:hover{
+    color:#01aeef;
+    border-bottom: 3px solid #1e266d; 
+}
+.button-group{
+    display: flex;
+    padding: 15px 0px 0px;
+}
+.button-group .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    /* border: 2px solid #1e266d; */
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.button-group .btn-primary:hover{
+    /* border: 2px solid #1e266d; */
+    background-color: #01aeef;
+} 
+/* **************** Header Section CSS End *****************  */
+
+/* **************** Banner Section CSS End *****************  */
+.banner{
+   width:100%;
+   margin: 130px 0px 20px;
+   
+}
+.banner .banner-items{
+    display: flex;
+    align-items: center;
+}
+.banner .banner-items .left-items{
+    flex-basis: 45%;
+    /* width:50%; */
+}
+.banner .banner-items .left-items h1{
+    font-size: 45px;
+    line-height: 1.2em;
+    color:#1e266d;
+    margin: 0px 0px 20px;
+}
+.banner .banner-items .left-items p{
+   font-size: 22px;
+   line-height: 1.2em;
+   font-weight: 300;
+   color:#1e266d;
+   margin: 0px 0px 10px;
+}
+.banner .banner-items .left-items .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1e266d;
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.banner .banner-items .left-items .btn-primary:hover{
+    background-color: transparent;
+    color:#1e266d;
+}
+.banner .banner-items .right-items{
+    flex-basis: 55%;
+}
+.banner .banner-items .right-items .img-fluid{
+    width: 100%;
+}
+/* **************** Banner Section CSS End *****************  */
+
+/* **************** Feature Section CSS Start *****************  */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .feature-box{
+    display: flex;
+    /* justify-content:space-between; */
+}
+.feature .feature-box .box-1{
+    /* background-color:#eee; */
+    flex-basis: 33%;
+    /* margin: 0px 10px 0px; */
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+}
+.feature-box .box-1 .icon{
+    flex-basis: 20%;
+}
+.feature-box .box-1 .icon .fa{
+    font-size: 35px;
+    color: #fff;
+}
+.feature-box .box-1 .content{
+    flex-basis: 80%;
+}
+.feature-box .box-1 .content h4{
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color:#fff;
+    margin: 0px 0px 10px;
+}
+.feature-box .box-1 .content p{
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 300;
+    color:#fff;
+    margin: 0px 0px 10px;
+}
+.bg-01{
+ background-color: #f9799a;
+ transition: 0.5s;
+}
+
+.bg-02{
+    background-color: #69c4d8;
+    margin: 0px 30px;
+   }
+   
+.bg-03{
+    background-color: #1e266d;
+   }
+/* **************** Feature Section CSS End *****************  */
+
+/* **************** Project Section CSS Start *****************  */
+.project{
+    width: 100%;
+    /* padding: 50px 0px; */
+}
+.project .project-content{
+    display:flex;
+    align-items: center
+}
+.project .project-content .left-part{
+    flex-basis: 40%;
+    margin-right: 20px
+}
+.project .project-content .right-part{
+    flex-basis: 60%;
+}
+.project .project-content .left-part h4{
+    font-size: 24px;
+    color:#07324f;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0px 0px 10px;
+}
+.project .project-content .left-part h1{
+    font-size: 45px;
+    line-height: 1.2em;
+    color:#07324f;
+    margin: 0px 0px 20px;
+}
+.project .project-content .left-part p{
+    font-size: 16px;
+    color:#526375;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.project .project-content .left-part .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1e266d;
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.project .project-content .left-part .btn-primary:hover{
+    background-color: transparent;
+    color:#1e266d;
+}
+/* **************** Project Section CSS End *****************  */
+
+/* **************** Support Section CSS Start *****************  */
+.support{
+    width: 100%;
+    margin: 50px 0px;
+    background-color: #f5f7fa;
+}
+.support .support-content{
+    display: flex;
+    padding: 70px 0px;
+    /* align-items: center; */
+}
+.support .support-content .support-img{
+    flex-basis: 60%;
+}
+.support .support-content .support-text{
+    flex-basis: 40%;
+}
+.support .support-content .support-text h4{
+    font-size: 24px;
+    color:#07324f;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0px 0px 10px;
+}
+.support .support-content .support-text h1{
+    font-size: 45px;
+    line-height: 1em;
+    color:#07324f;
+    margin: 0px 0px 20px;
+}
+.support .support-content .support-text p{
+    font-size: 16px;
+    color:#526375;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.support .support-content .support-text .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1e266d;
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.support .support-content .support-text .btn-primary:hover{
+    background-color: transparent;
+    color:#1e266d;
+}
+/* **************** Support Section CSS End *****************  */
+
+/* **************** Earning Section CSS End *****************  */
+.earning{
+    width: 100%;
+    padding: 60px 0px;
+}
+.earning .earning-content{
+    display: flex;
+    justify-content: center;
+}
+.earning .earning-content .earning-text{
+    flex-basis: 40%;
+}
+.earning .earning-content .earning-img{
+    flex-basis: 60%;
+}
+.earning .earning-content .earning-text h4{
+    font-size: 24px;
+    color:#07324f;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0px 0px 10px;
+}
+.earning .earning-content .earning-text h1{
+    font-size: 45px;
+    line-height: 1em;
+    color:#07324f;
+    margin: 0px 0px 20px;
+}
+.earning .earning-content .earning-text p{
+    font-size: 16px;
+    color:#526375;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.earning .earning-content .earning-text .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1e266d;
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.earning .earning-content .earning-text .btn-primary:hover{
+    background-color: transparent;
+    color:#1e266d;
+}
+/* **************** Earning Section CSS End *****************  */
+
+/* **************** Shikhbe Sobai Section CSS Start *****************  */
+.shikhbe-sobai{
+    width: 100%;
+    padding: 80px 0px 30px;
+    background-color: #f5f7fa;
+}
+.shikhbe-sobai .shikhbe-sobai-content{
+    Display: flex;
+    justify-content: center;
+}
+.shikhbe-sobai .shikhbe-sobai-content .left-content{
+    flex-basis: 50%;
+    
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content{
+    flex-basis: 50%;
+    padding-left: 80px;
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content h4{
+    font-size: 24px;
+    color:#07324f;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0px 0px 10px;
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content h1{
+    font-size: 45px;
+    line-height: 1em;
+    color:#07324f;
+    margin: 0px 0px 20px;
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content p{
+    font-size: 16px;
+    color:#526375;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content .btn-primary{
+    padding: 10px 30px;
+    margin: 15px 0px 30px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid #1e266d;
+    background-color: #1e266d;
+    transition: 0.5s;
+}
+.shikhbe-sobai .shikhbe-sobai-content .right-content .btn-primary:hover{
+    background-color: transparent;
+    color:#1e266d;
+}
+/* **************** Shikhbe Sobai Section CSS End *****************  */
+
+/* **************** Change Section CSS Start *****************  */
+.change{
+    width: 100%;
+    margin: 70px 0px 0px;
+}
+.change-content {
+    text-align: center;
+}
+.change-content h1 {
+    font-size: 45px;
+    line-height: 1em;
+    color:#07324f;
+    margin: 0px 0px 25px;
+}
+/* **************** Change Section CSS End *****************  */
+
+/* **************** Develop Section CSS Start *****************  */
+.develop{
+    width: 100%;
+    padding: 20px 0px 60px;
+}
+.develop .develop-content {
+    display: flex;
+}
+/* Box-01 CSS Start */
+.develop .develop-content .develop-box-01{
+    border-top: 5px solid #01aeef;
+    border-bottom: 5px solid #01aeef;
+    flex-basis: 25%;
+    height: 300px;
+    padding: 0px 30px 0px;
+    transition: 1s;
+}
+.develop .develop-content .develop-box-01:hover{
+    background-color: red;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+.develop .develop-content .develop-box-01 .fa-cogs{
+    color:#01aeef;
+    font-size: 35px;
+    padding: 25px 0px;
+}
+.develop .develop-content .develop-box-01 h4{
+    color:#01aeef;
+    font-size: 16px;
+    /* margin: 0px 0px 10px; */
+} 
+.develop .develop-content .develop-box-01 p{
+    color:#01aeef;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+} 
+/* Box-02 CSS start */
+.develop .develop-content .develop-box-02{
+    border-top: 5px solid red;
+    border-bottom:5px solid red ;
+    flex-basis: 25%;
+    padding: 0px 30px 0px;
+    transition: 1s;
+}
+.develop .develop-content .develop-box-02:hover{
+    background-color: #01aeef;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+.develop .develop-content .develop-box-02 .fa-anchor{
+    color:red;
+    font-size: 35px;
+    padding: 25px 0px;
+}
+.develop .develop-content .develop-box-02 h4{
+    color:red;
+    font-size: 16px;
+    /* margin: 0px 0px 10px; */
+} 
+.develop .develop-content .develop-box-02 p{
+    color:red;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+} 
+/* Box-03 CSS Start */
+.develop .develop-content .develop-box-03{
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    flex-basis: 25%;
+    padding: 0px 30px 0px;
+    transition: 1s;
+}
+.develop .develop-content .develop-box-03:hover{
+    background-color: green;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+.develop .develop-content .develop-box-03 .fa-comments{
+    color:orange;
+    font-size: 35px;
+    padding: 25px 0px;
+}
+.develop .develop-content .develop-box-03 h4{
+    color:orange;
+    font-size: 16px;
+    /* margin: 0px 0px 10px; */
+} 
+.develop .develop-content .develop-box-03 p{
+    color:orange;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    padding-right: 50px;
+} 
+/* Box-04 CSS Start */
+.develop .develop-content .develop-box-04{
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    flex-basis: 25%;
+    padding: 0px 30px 0px;
+    transition: 1s;
+}
+.develop .develop-content .develop-box-04:hover{
+    background-color: orange;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+.develop .develop-content .develop-box-04 .fa-file-text{
+    color:green;
+    font-size: 35px;
+    padding: 25px 0px;
+}
+.develop .develop-content .develop-box-04 h4{
+    color:green;
+    font-size: 16px;
+    /* margin: 0px 0px 10px; */
+} 
+.develop .develop-content .develop-box-04 p{
+    color:green;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+} 
+/* **************** Develop Section CSS End *****************  */
+
+/* **************** Youtube Section CSS Start *****************  */
+.youtube-video{
+    width: 100%;
+    padding: 50px 0px;
+}
+.youtube-video .youtube-box{
+    position: relative;
+    display:inline-block;
+    width:100%;
+}
+.youtube-video .youtube-box .play-btn img{
+    width:80px;
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    opacity: 0.4;
+    transition: 1s;
+}
+.youtube-video .youtube-box .play-btn img:hover{
+    opacity: 1;
+    width:85px;
+}
+/* **************** Youtube Section CSS End *****************  */
+
+/* **************** Contact Section CSS Start *****************  */
+.contact{
+    width: 100%;
+    padding: 50px 0px;
+}
+.contact .contact-content{
+    display: flex;
+    background-color: #1e266d;
+    border-radius: 8px;
+    padding: 100px;
+}
+.contact .contact-content .head-office{
+flex-basis: 50%;
+
+}
+.contact .contact-content .branch-office{
+    flex-basis: 50%;
+}
+.contact .contact-content .head-office h2{
+    font-size: 24px;
+    line-height: 1.3em;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact .contact-content .head-office p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contact .contact-content .branch-office h2{
+    font-size: 24px;
+    line-height: 1.3em;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+.contact .contact-content .branch-office p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/* **************** Contact Section CSS End *****************  */
+
+/* **************** Footer Section CSS Start *****************  */
+.footer{
+    width: 100%;
+    margin: 20px 0px;
+}
+.footer .footer-box{
+    display: flex;
+    padding-bottom: 30px;
+}
+/* Shikhbe Sobai Part */
+.footer .footer-box .shikhbesobai{
+    flex-basis: 20%;
+    padding-right: 20px;
+    
+}
+.footer .footer-box .shikhbesobai h5{
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px;
+}
+.footer .footer-box .shikhbesobai p{
+   font-size: 16px;
+   font-weight: 1.7em;
+   color: #91a3bb;
+}
+/* Connect  Part */
+.footer .footer-box .connect{
+    flex-basis: 25%;
+    padding-left: 20px;
+    
+}
+.footer .footer-box .connect h5{
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+.footer .footer-box .connect p{
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+/* Useful Links Part */
+.footer .footer-box .useful-links{
+    flex-basis: 25%;
+    padding-left: 20px;
+}
+.footer .footer-box .useful-links h5{
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+.footer .footer-box .useful-links p{
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+.footer .footer-box .useful-links ul li{
+    list-style: none;
+}
+.footer .footer-box .useful-links ul li a{
+    color: #91a3bb;
+    transition: 0.5s;
+}
+.footer .footer-box .useful-links ul li a:hover{
+    color: #1e266d;
+    font-size: 18px;
+}
+/* Social Links Part */
+.footer .footer-box .social-links{
+    flex-basis: 25%;
+    padding-left: 20px;
+}
+.footer .footer-box .social-links h5{
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+.footer .footer-box .social-links p{
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+.footer .footer-box .social-links ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer .footer-box .social-links ul li a{
+    display:block;
+    color: #01aeef;
+    background-color: #1e266d;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    transition: 1s;
+}
+.footer .footer-box .social-links ul li a:hover{
+    color: #fff;
+    background-color: #01aeef;
+    
+}
+.footer .footer-p p{
+    text-align: center;
+    margin:35px 0px 20px;
+    color:#fff;
+    background-color: #1e266d;
+    padding: 10px 0px;
+}
+.footer .footer-p p span{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* **************** Footer Section CSS End *****************  */
